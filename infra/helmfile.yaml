@@ -3,8 +3,8 @@ namespace: jx-vault
 repositories:
 - name: banzaicloud-stable
   url: https://kubernetes-charts.banzaicloud.com
-- name: jx3
-  url: https://storage.googleapis.com/jenkinsxio/charts
+- name: jxgh
+  url: https://jenkins-x-charts.github.io/repo
 releases:
 - chart: banzaicloud-stable/vault-operator
   name: vault-operator
